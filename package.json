@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron .",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder --win"
+    "dist": "electron-builder --win --publish never"
   },
   "dependencies": {
     "electron-store": "^9.0.0",
@@ -33,7 +33,6 @@
     "win": {
       "target": "nsis",
       "artifactName": "Stealthed Reader Setup ${version}.exe"
-    },
-    "publish": "never"
+    }
   }
 }
