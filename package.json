@@ -17,8 +17,8 @@
     "mousetrap": "^1.6.5"
   },
   "devDependencies": {
-    "electron": "^30.0.0",
-    "electron-builder": "^26.0.1"
+    "electron-builder": "^26.0.1",
+    "electron": "^30.0.0"
   },
   "build": {
     "appId": "com.stealthed.reader",
@@ -33,6 +33,7 @@
     "win": {
       "target": "nsis",
       "artifactName": "Stealthed Reader Setup ${version}.exe"
-    }
+    },
+    "publish": "never"
   }
 }
