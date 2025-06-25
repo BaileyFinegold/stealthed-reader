@@ -9,7 +9,6 @@
     "dist": "electron-builder --win"
   },
   "dependencies": {
-    "electron": "^30.0.0",
     "electron-store": "^9.0.0",
     "electron-localshortcut": "^3.2.1",
     "chokidar": "^3.6.0",
@@ -18,6 +17,7 @@
     "mousetrap": "^1.6.5"
   },
   "devDependencies": {
+    "electron": "^30.0.0",
     "electron-builder": "^26.0.1"
   },
   "build": {
