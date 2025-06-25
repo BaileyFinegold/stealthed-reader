@@ -3,7 +3,7 @@
 > _“鼠标悬停即显，移开瞬间隐身”_  
 > 在办公室悄悄看小说、技术文档或任何 TXT 文件的桌面应用，支持 Windows / macOS / Linux。
 
-![screenshot](docs/screenshot.png) <!-- 放一张演示图；没有就删掉 -->
+
 
 ---
 
@@ -86,32 +86,6 @@ mousetrap / electron-localshortcut 全局/局部快捷键
 
 可选 PyQt 6 + PyInstaller 轻量替代
 
-🤝 贡献
-欢迎 Issue / PR：
 
-Fork & clone
-
-新建分支 feat/* / fix/*
-
-提交并推送
-
-在 GitHub 创建 Pull Request
-
-📜 License
 MIT © 2025 Stealthed Reader Team
 
-markdown
-复制
-编辑
-
-### 使用说明
-
-1. **截图占位**  
-   - 把一张应用运行截图放到 `docs/screenshot.png`，或删除对应行。
-2. **Actions 徽章**  
-   - 若想在标题下显示构建状态，可在 README 里插入：  
-     ```markdown
-     ![Build](https://github.com/<you>/stealthed-reader/actions/workflows/build.yml/badge.svg)
-     ```
-3. **PyQt 版说明**  
-   - 如果你同时维护 PyQt 打包，可在 README 末尾再加一节 “Python 版本”。
