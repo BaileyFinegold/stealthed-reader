@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Stealthed Reader</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="skins/excel.css" id="skin-excel" disabled>
+<link rel="stylesheet" href="skins/night.css" id="skin-night" disabled>
+</head>
+<body>
+  <div id="toolbar">
+    <button id="openBtn">📂 打开</button>
+    <select id="themeSel">
+      <option value="light">☀️ 亮</option>
+      <option value="night">🌙 夜</option>
+    </select>
+    <button id="autoBtn">▶ 自动滚屏</button>
+    <input id="opacityRange" type="range" min="20" max="100" value="100">
+  </div>
+  <textarea id="reader" readonly></textarea>
+  <script src="app.js" type="module"></script>
+</body>
+</html>

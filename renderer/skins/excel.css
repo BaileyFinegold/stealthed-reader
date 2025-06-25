@@ -1,0 +1,7 @@
+/* Excel skin - make textarea look like spreadsheet */
+#reader{
+  font-family: Consolas, monospace;
+  background: linear-gradient(transparent 95%, #ddd 95%) repeat-y,
+              linear-gradient(to right, transparent 95%, #ddd 95%) repeat-x;
+  background-size: 100% 20px, 80px 100%;
+}
